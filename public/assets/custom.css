@@ -1,0 +1,28 @@
+body {
+  background-color: #eee;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-fluid {
+  padding: 50px;
+}
+
+.container {
+  background-color: white;
+  padding: 50px;
+}
+
+#title {
+  font-family: 'Lobster', cursive;;
+}
+
